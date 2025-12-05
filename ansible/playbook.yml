@@ -21,7 +21,7 @@
 
     - name: Create a custom index.html
       copy:
-        src: ~/Guiao_Azure/final_assignment/ansible/index.html
+        src: ~/Desktop/Estga/AS/projetoAS-Exercicio1/ansible/index.html
         dest: /var/www/html/index.html
         owner: www-data
         group: www-data

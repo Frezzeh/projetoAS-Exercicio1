@@ -1,4 +1,7 @@
 *.tfstate
 *.tfstate.backup
 .terraform/
+terraform.tfvars
 *.tfvars
+ansible/group_vars/webservers.yml
+ansible/.vault_pass

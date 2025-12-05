@@ -14,7 +14,7 @@ provider "azurerm" {
 # 1. Resource Group
 resource "azurerm_resource_group" "rg" {
   name     = "my-terraform-rg"
-  location = "switzerlandnorth"
+  location = "francecentral"
 }
 
 # 2. Virtual Network and Subnet
@@ -104,8 +104,8 @@ resource "azurerm_linux_virtual_machine" "vm" {
   size                            = "Standard_B2S" # Basic VM size
   network_interface_ids           = [azurerm_network_interface.nic.id]
   disable_password_authentication = false
-  admin_username                  = "azureuser"
-  admin_password                  = "@Qwerty123" # **Change this to a strong password and use a variable!**
+  admin_username                  = var.admin_username
+  admin_password                  = var.admin_password
 
   os_disk {
     caching              = "ReadWrite"
