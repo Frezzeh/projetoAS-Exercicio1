@@ -3,5 +3,6 @@
 .terraform/
 terraform.tfvars
 *.tfvars
+.terraform.lock.hcl
 ansible/group_vars/webservers.yml
 ansible/.vault_pass
