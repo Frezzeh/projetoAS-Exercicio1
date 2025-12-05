@@ -1,4 +1,7 @@
 *Final assignment*
+Team: Max Group of 3 People
+Delivery Date: 9th January 2026
+
 
 Exercise 1
 1. Fork this repository
@@ -8,7 +11,11 @@ Exercise 1
   
 
 Exercise 2:
-1. Create a Linux machine in Azure that will play a DHCP role
-2. use Terraform and Ansible (zero manual configuration)
-3. make sure that no passwords are stored in scripts
-4. delivery the code in a github repo
+1. Create a new repository.
+2. Create a Linux machine in Azure that will play a DHCP role (Test the configuration.)
+3. Use Terraform and Ansible (Zero manual configuration)
+4. Make sure that no passwords are stored in scripts
+5. Delivery the code in a github repo
+
+
+
