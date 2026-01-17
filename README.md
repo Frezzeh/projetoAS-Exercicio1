@@ -2,7 +2,9 @@ Note: this repo stores scripts for students to play with (several errors can be 
 
 *Final assignment*
 
-team:  max group of 3 people
+team:  André Lima
+       Fábio Simões
+       Rafael Costa
 
 Delivery date: 9 January 2026
 
